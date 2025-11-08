@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 from sklearn import datasets
 from sklearn.ensemble import RandomForestClassifier
 
+st.set_page_config(layout='wide')
 st.title("""Iris Classification App""")
 st.write(""" Une simple App pour la prediction des fleurs d'iris.
          L'applicaton predit la categorie des fleurs d'iris""")
